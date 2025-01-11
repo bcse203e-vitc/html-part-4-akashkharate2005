@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Health survery form</h1>
+    <form>
+        <label>Name :</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Age :</label><br>
+        <input type="number" name="age" required><br><br>
+        
+        <label>Gender :</label><br>
+        <input type="radio" name="male" ><label>Male</label>
+        <input type="radio" name="Female"><label>Female</label><br><br>
+
+        <label>Height :</label><br>
+        <input type="number" name="Height" required><br><br>
+
+        <label>Weight :</label><br>
+        <input type="number" name="weight" required><br><br>
+
+        <label>Facing any of the related issues ??</label><br>
+        <input type="radio" name="physical"><label>Physical</label><br>
+        <input type="radio" name="mental"><label>Mental</label><br>
+        <input type="radio" name="emotional"><label>Emotional</label>
+        <br><br>
+        <label>Dietary preferences</label><br>
+        <select name="Dietary_options">
+            <option value="veg">Veg</option>
+            <option value="non_veg">Non Veg</option>
+        </select><br><br>
+
+        <label>Activity level</label><br>
+        <select name="activity">
+            <option value="sedentry">Sedentry
+            </option>
+            <option value="Moderate">Moderate</option>
+            <option value="Active">Active</option>
+        </select><br><br>
+
+        <label>Additional Health concerns</label>
+        <textarea></textarea><br>
+        <br><button type="submit">Submit</button>
+    </form>
+</body>
+</html>

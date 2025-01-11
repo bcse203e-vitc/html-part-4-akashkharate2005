@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dynamic product order form</h1>
+    <form>
+        <label>Customer Name :</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email :</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Address :</label><br>
+        <input type="text" name="Address" required><br><br>
+
+        <label>Product :</label><br>
+        <select name="product" id="product" required>
+            <option value="fashion">Fashion</option>
+            <option value="techenology">Techenology</option>
+            <option value="Garments">Garments</option>
+            <option value="Groceries">Groceries</option>
+        </select>
+        <br><br>
+        <label>Quantity:</label><br>
+        <input type="number" name="Quantity" required><br><br>
+        <label>Delivery preference</label><br>
+        <input type="radio" name="Standard"><label>Standard</label><br>
+        <input type="radio" name="express"><label>Express</label>
+        <br><Br>
+        <label><b>Apply coupon</b></label><br>
+        <input type="text" name="coupon"><br>
+        <button>Calculate discount</button>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
